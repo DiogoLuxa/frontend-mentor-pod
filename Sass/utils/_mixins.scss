@@ -1,0 +1,25 @@
+@mixin title-styles($size: mobile) {
+  $styles: map-get($title-styles, $size);
+  font-size: map-get($styles, font-size);
+  line-height: map-get($styles, line-height);
+  text-align: map-get($styles, text-align, left);
+  font-weight: 100;
+  text-transform: uppercase;
+  color: $green-aqua;
+  span {
+    color: $white;
+  }
+}
+@mixin body-styles($size: default) {
+  $styles: map-get($body-styles, $size);
+  font-size: map-get($styles, font-size);
+  line-height: map-get($styles, line-height);
+  text-align: map-get($styles, text-align);
+  font-weight: 100;
+  color: $light-gray;
+}
+@mixin form-input-text-style {
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  font-weight: bold;
+}

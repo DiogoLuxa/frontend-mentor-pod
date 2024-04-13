@@ -1,19 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Pod request access landing page</title>
-</head>
-<body>
-  Publish your podcasts everywhere.
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
 
-  Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-  Apple Podcasts, Google Podcasts, Pocket Casts and more!
-
-  Request access
-</body>
+    <title>Frontend Mentor | Pod request access landing page</title>
+    <link rel="stylesheet" href="/Sass/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <div class="logo">
+          <img src="./assets/desktop/logo.svg" alt="" />
+        </div>
+        <div class="content-container">
+          <header>
+            <h1 class="title">
+              Publish your podcasts <span>everywhere.</span>
+            </h1>
+            <p class="description">
+              Upload your audio to Pod with a single click. We’ll then
+              distribute your podcast to Spotify, Apple Podcasts, Google
+              Podcasts, Pocket Casts and more!
+            </p>
+          </header>
+          <div class="brands">
+            <div class="logo-brand logo1"></div>
+            <div class="logo-brand logo2"></div>
+            <div class="logo-brand logo3"></div>
+            <div class="logo-brand logo4"></div>
+          </div>
+          <form action="/submit_email" method="post">
+            <div class="wrapper">
+              <input
+                class="email-input"
+                type="email"
+                name="email"
+                placeholder="Email address"
+                required
+              />
+              <input class="btn" type="submit" value="Request Access" />
+            </div>
+          </form>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>

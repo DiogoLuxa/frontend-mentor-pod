@@ -1,0 +1,44 @@
+// variables
+// colors
+$green-aqua: #54e6af;
+$mint-frost: #b3ffe2;
+$blue-charcoal: #2c344b;
+$deep-black: #121725;
+$slate-blue: #5a668a;
+$light-gray: #c2cbe5;
+$silver-gray: #9599a5;
+$white: #fff;
+
+//maps
+$title-styles: (
+  desktop: (
+    font-size: 5.2rem,
+    line-height: 6.2rem,
+  ),
+  tablet: (
+    font-size: 4.8rem,
+    line-height: 5.6rem,
+  ),
+  mobile: (
+    font-size: 2.6rem,
+    line-height: 3.8rem,
+    text-align: center,
+  ),
+);
+$body-styles: (
+  mobile: (
+    font-size: 1.5rem,
+    line-height: 2.5rem,
+    text-align: center,
+  ),
+  default: (
+    font-size: 1.8rem,
+    line-height: 2.8rem,
+    text-align: left,
+  ),
+);
+$backgrounds: (
+  desktop: url("../../assets/desktop/image-host.jpg"),
+  tablet: url("../../assets/tablet/image-host.jpg"),
+  mobile: url("../../assets/mobile/image-host.jpg"),
+);

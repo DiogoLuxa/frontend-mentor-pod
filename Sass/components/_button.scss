@@ -1,0 +1,8 @@
+.btn {
+  @include form-input-text-style;
+  color: $deep-black;
+  background-color: $green-aqua;
+  &:hover {
+    background-color: $mint-frost;
+  }
+}
