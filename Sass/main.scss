@@ -41,6 +41,11 @@ main {
 .logo {
   // background-color: purple;
   margin-bottom: 5rem;
+  @media (min-width: 768px) {
+    position: absolute;
+    top: 5rem;
+    left: 4rem;
+  }
 }
 .content-container {
   @media (min-width: 768px) {
@@ -49,7 +54,7 @@ main {
     top: 50%;
     transform: translateY(-50%);
     width: 88%;
-    padding: 9rem 4rem 0 4rem;
+    padding: 10rem 4rem 1rem 4rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -65,49 +70,46 @@ header {
     @media (min-width: 768px) {
       @include title-styles(tablet);
       text-align: left;
+      margin-bottom: 3rem;
     }
   }
   .description {
     margin-bottom: 3rem;
     @media (min-width: 768px) {
       margin-bottom: 4rem;
+      width: 75%;
     }
   }
 }
 .brands {
-  order: 3;
-  // background-color: yellow;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  align-items: center;
   column-gap: 1rem;
-  width: 100%;
-  height: 2rem;
   margin-bottom: 4.8rem;
   @media (min-width: 768px) {
+    order: 3;
+    width: 90%;
     margin-bottom: 0;
     margin-top: 6rem;
   }
-  .logo-brand {
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: left;
-  }
   .logo1 {
-    background-image: url("../assets/desktop/spotify.svg");
+    width: 80%;
   }
   .logo2 {
-    background-image: url("../assets/desktop/apple-podcast.svg");
+    width: 70%;
   }
   .logo3 {
-    background-image: url("../assets/desktop/google-podcasts.svg");
+    position: relative;
+    right: 1rem;
+    width: 100%;
   }
   .logo4 {
-    background-image: url("../assets/desktop/pocket-casts.svg");
+    width: 100%;
   }
 }
 form {
   .wrapper {
-    // background-color: pink;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -115,7 +117,16 @@ form {
     margin: 0;
     padding: 0;
     @media (min-width: 768px) {
-      width: 70%;
+      width: 71%;
     }
+  }
+}
+.bg-pattern {
+  display: none;
+  @media (min-width: 768px) {
+    display: block;
+    position: absolute;
+    left: 3rem;
+    bottom: 0;
   }
 }
