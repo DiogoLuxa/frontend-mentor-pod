@@ -44,11 +44,9 @@ body {
     padding: 0;
     width: 100vw;
     min-height: 100vh;
-    // background-color: red;
   }
 }
 main {
-  // background-color: blue;
   @media (min-width: 1440px) {
     position: relative;
     width: calc(100% - (165px * 2));
@@ -56,7 +54,6 @@ main {
   }
 }
 .logo {
-  // background-color: purple;
   margin-bottom: 5rem;
   @media (min-width: 768px) {
     position: absolute;
@@ -176,6 +173,19 @@ form {
     }
     @media (min-width: 1440px) {
       width: 59%;
+    }
+    .error-message {
+      display: none;
+      @media (min-width: 768px) {
+        display: none;
+        position: absolute;
+        bottom: -0.1rem;
+        left: 3.2rem;
+        transform: translateY(100%);
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: $alert-red;
+      }
     }
   }
   @media (min-width: 1440px) {

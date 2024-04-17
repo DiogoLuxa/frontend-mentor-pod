@@ -1,8 +1,10 @@
 .btn {
+  cursor: pointer;
   @include form-input-text-style;
   color: $deep-black;
   background-color: $green-aqua;
   &:hover {
+    color: $deep-black;
     background-color: $mint-frost;
   }
 }
