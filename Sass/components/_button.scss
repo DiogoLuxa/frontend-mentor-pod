@@ -3,7 +3,8 @@
   @include form-input-text-style;
   color: $deep-black;
   background-color: $green-aqua;
-  &:hover {
+  &:hover,
+  &:focus {
     color: $deep-black;
     background-color: $mint-frost;
   }
