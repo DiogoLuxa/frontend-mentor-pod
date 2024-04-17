@@ -25,12 +25,12 @@ body {
   background-size: cover;
   @media (min-width: 768px) {
     @include body-styles(default);
-    background-image: get-background(tablet);
+    background-image: url("../assets/tablet/image-host.jpg");
     background-size: auto;
     background-position: top right;
   }
   @media (min-width: 1440px) {
-    background-image: get-background(desktop);
+    background-image: url("../assets/desktop/image-host.jpg");
     background-position: right center;
   }
 }
