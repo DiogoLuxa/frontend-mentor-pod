@@ -16,8 +16,6 @@ This is a solution to the [Pod request access landing page challenge on Frontend
     - [Useful resources](#useful-resources)
   - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -38,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/early-access-landing-page-that-includes-custom-form-validation-YqOoocvRHe)
-- Live Site URL: [Preview](https://diogoluxa.github.io/frontend-mentor-pod/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/early-access-landing-page-that-includes-custom-form-validation-YqOoocvRHe)
+- Live Site URL: [POD Request](https://diogoluxa.github.io/frontend-mentor-pod/)
 
 ## My process
 
