@@ -5,7 +5,6 @@ This is a solution to the [Pod request access landing page challenge on Frontend
 ## Table of contents
 
 - [Frontend Mentor - Pod request access landing page solution](#frontend-mentor---pod-request-access-landing-page-solution)
-  - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
